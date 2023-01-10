@@ -1,0 +1,9 @@
+def Lex(my_string):
+    words = my_string.split()
+    words.sort()
+    for i in words:
+        print( i )
+if _name_ == '_main_':
+     my_string = "python class is very drowsy"\
+     "we need sleep"
+Lex(my_string)
